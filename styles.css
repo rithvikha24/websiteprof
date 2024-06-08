@@ -76,7 +76,7 @@ section ul li {
 }
 
 footer {
-    background-color: #3dc525;
+    background-color: #4CAF50;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
@@ -87,12 +87,22 @@ footer {
 
 
 .button{
-    background-colour: rgb(200,50,50);
+    background-colour: #4CAF50;
     color: white;
     border: none;
     height: 30px;
     width:100px;
     cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+.button:hover{
+    background-color: #4CAF50;
+    opacity:0.8;
+}
+
+.button:active{
+    opacity:0.5;
 }
     
 
