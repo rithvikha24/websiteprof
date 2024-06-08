@@ -87,8 +87,8 @@ footer {
 
 @media only screen and (max-width 400px){
     .container {
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 50%;
     }
 }
     
