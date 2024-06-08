@@ -85,3 +85,15 @@ footer {
     width: 100%;
 }
 
+@media only screen and (max-width: 400px){
+    .container{
+
+    width: 50%;
+    margin: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
